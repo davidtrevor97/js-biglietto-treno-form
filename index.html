@@ -7,21 +7,39 @@
   </head>
   <body>
     <!--INPUT INSERIMENTO DATI -->
+<div class="container1">
+  <div class="inputs">
     <input type="text" placeholder="Nome" value="" id="nome">
     <input type="text" placeholder="Cognome" value="" id="cognome">
     <input type="number" placeholder="Età" value="" id="eta">
     <input type="text" placeholder="Kilometri da percorrere" value="" id="km">
+  </div>
 
     <!-- Bottoni -->
+  <div class="bottons">
     <button type="button" name="button" id="bottoneGenera">Genera Biglietto</button>
     <button type="button" name="button" id="bottoneAnnulla">Annulla Dati</button>
-
+  </div>
+</div>
     <!-- Numeri carrozza e treno -->
-    <span id="cp"></span>
-    <span id="carrozza"></span>
+<div class="biglietto ">
+    <div class="column">
+      <h3>Identificativo treno</h3>
+      <span id="cp"></span>
+    </div>
+    <div class="column">
+      <h3>Carrozza numero</h3>
+      <span id="carrozza"></span>
+    </div>
+
 
     <!-- PREZZO -->
-    <span id="prezzo"></span>
+    <div class="column">
+      <h3>Prezzo biglietto</h3>
+      <span id="prezzo"></span>
+    </div>
+
+</div>
 
     <script type="text/javascript" src= "./js/main.js"></script>
   </body>
